@@ -10,3 +10,47 @@
 // Your CSS partials
 @import "components/index";
 @import "pages/index";
+
+
+body {
+  background-color: rgb(240, 240, 240)(128, 128, 128, 0.732)
+}
+
+ul {
+  margin-right: 10px;
+}
+
+
+li {
+  list-style: none;
+  margin-right: 10px;
+  padding: 5px;
+}
+
+a {
+  color: black;
+  text-align: center;
+}
+
+
+.container {
+  width: 800px;
+  margin: 20px auto;
+  background-color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+.new-button {
+  background-color: black;
+}
+
+ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+.create {
+  background-color: lightblue;
+}

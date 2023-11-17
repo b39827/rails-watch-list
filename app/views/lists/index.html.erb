@@ -1,0 +1,19 @@
+<div class="container">
+<h1>    Movies' Lists</h1>
+<br>
+<div class="grid">
+<ul>
+<% @lists.each do |list| %>
+<div>
+<%= cl_image_tag("The_Movies_Coverart_zwqs9t",
+      width: 200, height: 150, crop: :fill) %>
+<li><%= link_to list.name, list_path(list) %></li></div>
+<% end  %>
+</ul>
+</div>
+<%= link_to "Create a new list", new_list_path, class: "btn btn-primary" %>
+
+
+
+
+</div>
